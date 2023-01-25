@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -13,7 +13,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg");
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -21,37 +21,24 @@ body{
   background-position: center;
   background-color: #140330;
   font-family: monospace;
-  font-size: 1.6rem;
-  padding: 30px 0;
-}
-
-header{
-  text-align:center; 
-  color: white;
-  font-size: 2.5rem;
-}
-
-/* ------------------------------Restart button */
-.btn-container{
-  text-align: center;
+  font-size: 1em;
+  padding: 1em 0;
 }
 
 .restart-btn{
-  color: white;
+  color: #c112a0;
+  border: 0.1em #c112a0 solid;
+  padding: 0.4em;
   background-color: transparent;
-  border-radius: 12px;
-  padding: 10px 10px;
-  font-weight: bold;
-  font-size: 1.6rem;
-  cursor: pointer;
+  font-size: 3em;
+  opacity: 0.6;
   transition: all 0.3s ease;
-  margin-top: 30px;
 }
 
 .restart-btn:hover{
   cursor: pointer;
-  background-color: white;
-  color: black;
+  opacity: 1;
+  transition: 0.1s;
 }
 
 /* ------------------------------Score board */
