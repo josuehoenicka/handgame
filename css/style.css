@@ -92,6 +92,7 @@ body{
 .choices .choice:hover{
   cursor: pointer;
   background: #531345;
+  transition: 0.3s;
 }
 
 .choices .choice img{
