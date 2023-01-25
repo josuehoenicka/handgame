@@ -26,19 +26,19 @@ body{
 }
 
 .restart-btn{
-  color: #c112a0;
-  border: 0.1em #c112a0 solid;
+  color: rgba(255, 255, 255, 0.3);
+  border: 0.1em rgba(255, 255, 255, 0.3) solid;
   padding: 0.4em;
-  background-color: transparent;
+  background-color: transparent;  
   font-size: 3em;
-  opacity: 0.6;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .restart-btn:hover{
   cursor: pointer;
-  opacity: 1;
-  transition: 0.1s;
+  color: #c112a0;
+  border: 0.1em #c112a0 solid;
+  transition: 0.3s;
 }
 
 /* ------------------------------Score board */
@@ -70,11 +70,10 @@ body{
   right: -55px;
 }
 
-/* ------------------------------Player choices */
 .choices{
   display: flex;
   justify-content: center;
-  margin: 20px 0 25px;
+  margin: 2.5em;
 }
 
 .choices .choice{
